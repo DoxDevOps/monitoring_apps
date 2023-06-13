@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+  <h1>Available Applications</h1>
+
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body border text-center">
+          <img src="{% static 'images/logos/grafana.png' %}" class="app-icon" alt="Grafana Icon">
+          <h5 class="card-title"><a href="http://10.44.0.60:3000" target="_blank" style="text-decoration: none; color: hsl(30, 100%, 50%);">Grafana</a></h5>
+          <p class="card-text">System resource utilization and database performance</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body border text-center">
+          <img src="{% static 'images/logos/toolbox.png' %}" alt="Toolbox Icon" class="app-icon">
+          <h5 class="card-title"><a href="https://toolbox.hismalawi.org" target="_blank" style="text-decoration: none;">Toolbox</a></h5>
+          <p class="card-text">System diagnostics and version tracking</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body border text-center">
+          <img src="{% static 'images/logos/prtg.png' %}" alt="PRTG Icon" class="app-icon">
+          <h5 class="card-title"><a href="http://10.44.0.60:3000" target="_blank" style="text-decoration: none;">PRTG</a></h5>
+          <p class="card-text">Network-monitoring software that collects various network-related stats.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body border text-center">
+          <img src="{% static 'images/logos/prtg.png' %}" alt="PRTG Icon" class="app-icon">
+          <h5 class="card-title"><a href="http://10.44.0.60:3000" target="_blank" style="text-decoration: none;">GROWATT</a></h5>
+          <p class="card-text">Network-monitoring software that collects various network-related stats.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body border text-center">
+          <img src="{% static 'img/prtg.png' %}" alt="PRTG Icon" class="app-icon">
+          <h5 class="card-title"><a href="http://10.40.30.106:4000" target="_blank" style="text-decoration: none;">EMR Monitor</a></h5>
+          <p class="card-text">Monitors EMR module usage and periodical backpups.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

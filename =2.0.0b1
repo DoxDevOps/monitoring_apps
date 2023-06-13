@@ -1,0 +1,17 @@
+Collecting django-viewflow
+  Downloading django_viewflow-1.11.0-py2.py3-none-any.whl (141 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 141.1/141.1 KB 153.3 kB/s eta 0:00:00
+Collecting django-jsonstore
+  Downloading django_jsonstore-0.5.1-py3-none-any.whl (18 kB)
+Requirement already satisfied: Django>=2.2 in /home/mary/monitoring_apps/env/lib/python3.10/site-packages (from django-viewflow) (4.1.9)
+Collecting django-filter>=1.0
+  Downloading django_filter-23.2-py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.9/91.9 KB 488.2 kB/s eta 0:00:00
+Requirement already satisfied: six in /home/mary/monitoring_apps/env/lib/python3.10/site-packages (from django-viewflow) (1.16.0)
+Collecting django-annoying
+  Downloading django_annoying-0.10.6-py2.py3-none-any.whl (9.5 kB)
+Requirement already satisfied: asgiref<4,>=3.5.2 in /home/mary/monitoring_apps/env/lib/python3.10/site-packages (from Django>=2.2->django-viewflow) (3.7.2)
+Requirement already satisfied: sqlparse>=0.2.2 in /home/mary/monitoring_apps/env/lib/python3.10/site-packages (from Django>=2.2->django-viewflow) (0.4.4)
+Requirement already satisfied: typing-extensions>=4 in /home/mary/monitoring_apps/env/lib/python3.10/site-packages (from asgiref<4,>=3.5.2->Django>=2.2->django-viewflow) (4.6.3)
+Installing collected packages: django-jsonstore, django-filter, django-annoying, django-viewflow
+Successfully installed django-annoying-0.10.6 django-filter-23.2 django-jsonstore-0.5.1 django-viewflow-1.11.0
