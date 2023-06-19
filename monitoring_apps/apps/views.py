@@ -11,6 +11,7 @@ class ListAppView(LoginRequiredMixin, PermissionRequiredMixin, ListView):
     model = App
     paginate_by = 15
     template_name = "apps/list_app.html"
+    context_object_name = "app_list"  # Set the context object name for the app list
 
 
 list_app_view = ListAppView.as_view()
